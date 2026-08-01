@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+* {
+    font-family:"Rubik", sans-serif;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh ;
+    background-image: url(.//img/Fundo.jpeg);
+}
+.container {
+    background: transparent;
+    width: 420px;
+    padding: 30px 40px;
+    padding-right: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    color: #fff;
+    backdrop-filter: blur(120px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#title {
+    text-align: center;
+    margin: 0px 10px 20px 0px;
+}
+
+.input-box {
+    display: flex;
+    justify-content: center;
+}
+
+.input-box input {
+    width: 100%;
+    outline: none;
+    padding: 20px 45px 20px 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.input-box ::placeholder {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+
+.input-box i {
+    position: relative;
+    font-size: 25px;
+    right: 45px;
+    top: 25%;
+    transform: translateY(30%);
+    color: black;
+    cursor: pointer;
+}
+
+.remember {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 15px;
+    cursor: pointer;
+}
+
+.remember a {
+    margin-left: 180px;
+     color:  rgb(110, 105, 105);
+}
+.register-link {
+    margin-left: 60px;
+}
+
+.register-link a {
+    color:  rgb(110, 105, 105);
+}
+
+.login {
+    height: 30px;
+    width: 60%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px; 
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+    padding-top: 3px;
+}
+#voltar {
+    display: flex;
+    font-size: 40px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
