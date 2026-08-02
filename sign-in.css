@@ -34,6 +34,18 @@ body {
                 rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+#arrow-back-page {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+    filter: brightness(0) invert(1); 
+}
+#arrow-back-page:hover {
+    opacity: 1;  
+}
+
 #titulo {
     text-align: center;
     margin: 0 0 20px 0;
@@ -85,6 +97,23 @@ body {
 
 .input-box i:hover {
     color: #fff;
+}
+
+#password-eye {
+    cursor: pointer;
+    position: absolute;
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 32px;
+    height: 32px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+    filter: brightness(0) invert(1); 
+}
+
+#password-eye:hover {
+    opacity: 1;
 }
 
 .remember {
