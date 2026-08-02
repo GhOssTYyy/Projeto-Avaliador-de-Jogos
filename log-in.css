@@ -14,7 +14,8 @@ body {
     min-height: 100vh ;
     background-image: url(.//img/Fundo.jpeg);
 }
-//
+
+/*Configuração Geral */
 .container {
     background: transparent;
     width: 420px;
@@ -32,6 +33,7 @@ body {
     margin: 0px 10px 20px 0px;
 }
 
+/*Configurações visuais dos inputs*/
 .input-box {
     display: flex;
     justify-content: center;
