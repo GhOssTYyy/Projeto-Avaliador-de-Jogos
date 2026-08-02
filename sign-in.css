@@ -99,7 +99,7 @@ body {
     color: #fff;
 }
 
-#password-eye {
+.password-eye {
     cursor: pointer;
     position: absolute;
     right: 18px;
@@ -112,7 +112,7 @@ body {
     filter: brightness(0) invert(1); 
 }
 
-#password-eye:hover {
+.password-eye:hover {
     opacity: 1;
 }
 
