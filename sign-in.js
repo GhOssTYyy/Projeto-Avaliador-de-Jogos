@@ -2,7 +2,7 @@ const arrow_back_page = document.getElementById("arrow-back-page")
 
 arrow_back_page.addEventListener("click", function(){
 
-    window.location.href = "log-in_page.html"
+    window.location.href = "index.html"
 
 })
 
